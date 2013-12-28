@@ -1,0 +1,1 @@
+libutil-g.a(dlink.o): dlink.c ../util/dlink.h ../util/general.h

@@ -1,0 +1,2 @@
+libcodegen-g.a(reg.o): reg.c ../util/general.h ../util/string_utils.h \
+ ../util/symtab.h ../codegen/symfields.h reg.h types.h

@@ -1,0 +1,18 @@
+int a, b;
+
+int t()
+{
+  int a, b[10];
+
+  b[3] = 5; 
+  a = 2; 	
+  write(a);
+  return a+b[3];
+}
+
+int main()
+{
+  a = 1;
+  b = t();
+  write(a+b);
+}

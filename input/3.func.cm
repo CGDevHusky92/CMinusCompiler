@@ -1,0 +1,17 @@
+int a, b;
+
+int t()
+{
+  int a;
+  
+  a = 2; 	
+  write(a);
+  return a+1;
+}
+
+int main()
+{
+  a = 1;
+  b = t();
+  write(a+b);
+}

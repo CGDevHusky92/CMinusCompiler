@@ -1,0 +1,2 @@
+libcodegen-g.a(types.o): types.c ../codegen/types.h ../util/general.h \
+ ../util/symtab.h ../codegen/symfields.h

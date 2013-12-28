@@ -1,0 +1,4 @@
+libutil-g.a(symtab_stack.o): symtab_stack.c ../util/general.h \
+ ../util/symtab.h ../util/dlink.h ../util/string_utils.h \
+ ../util/symtab_stack.h ../codegen/symfields.h ../codegen/types.h \
+ ../codegen/codegen.h ../codegen/reg.h

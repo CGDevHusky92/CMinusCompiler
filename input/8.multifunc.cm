@@ -1,0 +1,13 @@
+int a1() {
+	write(1);
+	return 1;
+}
+
+int a2() {
+	write(2);
+	return a1();
+}
+
+int main() {
+  write(a1()+a2());
+}
